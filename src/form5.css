@@ -1,0 +1,134 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    padding:0px;
+    margin:0px;
+}
+
+.bouton{
+    
+    font-size: 1px;
+    
+}
+#menu-demo3, #menu-demo3 ul{
+    padding:6px 6px 0 0 ;
+    margin:0;
+    list-style:none;
+    text-align:right;
+    }
+    #menu-demo3 li{
+    padding: 4px;
+    display:inline-block;
+    position:relative;
+    border-radius:10px 10px 10px 10px;
+    }
+    #menu-demo3 ul{
+    position:absolute;
+    z-index: 1000;
+    max-height:0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .8s all .3s;
+    transition: .8s all .3s;
+    }
+    #menu-demo3 li:hover ul{
+    max-height:15em;
+    }
+  /* background des liens menus */
+    #menu-demo3 li:first-child{
+    background-color: rgb(228, 34, 60);
+    background-image:-webkit-linear-gradient(top, rgb(196, 87, 73) 0%, rgb(255, 87, 241) 100%);
+    background-image:linear-gradient(to bottom, rgb(141, 29, 95) 0%,  rgb(39, 0, 0) 100%);
+    }
+        
+   
+    /* background des liens menus et sous menus au survol */
+    #menu-demo3 li:first-child:hover, #menu-demo3 li:first-child li:hover{
+    background: rgb(111, 119, 168);
+    }
+    
+    /* les a href */
+    #menu-demo3 a{
+    text-decoration:none;
+    display:block;
+    padding:8px 32px;
+    color: wheat;
+    font-family: Helvetica;
+    }
+    #menu-demo3 ul a{
+    padding:8px 0;
+    }
+    #menu-demo3 li:hover li a{
+    color:#fff;
+    text-transform:inherit;
+    }
+    #menu-demo3 li:hover a, #menu-demo3 li li:hover a{
+    color:#000;
+    }
+    
+.insc{
+    display: inline-block;
+    margin-top: 130px;
+    width: 600px;
+    height: 270px;
+    border: 1px inset rgb(181, 187, 187);
+    
+    box-shadow: 0px 0px 30px rgb(128, 128, 128);
+    padding: 25px 25px 25px 25px;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(84, 10, 128);
+}
+input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 160, 160);
+    
+}
+#button{
+    color: rgb(26, 25, 25);
+    background-color: rgb(228, 34, 60);
+    border: 2px solid rgb(10, 12, 12);
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.2s;
+    font-size: 15px;
+    width: 250px;
+    height: 40px;
+    
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+#button:hover{
+    background-color: rgb(0, 230, 210);
+    text-decoration: none;
+    color: white;
+}
+.first{
+    font-size: 2em;
+    text-shadow: 1px 1px 6px white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+    
+}
+.second{
+    font-size: 1.3em;
+    text-shadow: 1px 1px 4px white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+.second2{
+    font-size: 0.8em;
+    text-shadow: 1px 1px 4px white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ad{
+    color :  yellow;
+}

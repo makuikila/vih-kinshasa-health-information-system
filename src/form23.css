@@ -1,0 +1,137 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    padding:0;
+    margin:0;
+}
+header,body,html,footer,h1{
+    margin:0px;
+    padding: 0px;
+}
+
+nav
+{
+
+display: inline-block;
+width: 65%;
+height:5px;
+margin-left: 35%;
+text-align: right;
+}
+nav ul
+{
+list-style-type: none;
+}
+nav li
+{
+display: inline-block;
+margin-right: 25px;
+margin-top: 5px;
+}
+nav a
+{
+font-size: 1.2em;
+color: #181818;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding-bottom: 3px;
+text-decoration: none;
+}
+nav a:hover
+{
+color: #760001;
+border-bottom: 3px solid #760001;
+}
+body{
+    font-family: Helvetica;
+}
+.emballage{
+    display: table;
+    width: 100%;
+    height: 100%;
+    
+}
+.contenant{
+    
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 1px 1px 10px white;
+    
+}
+.titre{
+    padding-bottom: 40px;
+}
+.fieldset{
+    margin-left: 360px;
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+    width: 600px;
+    height: 100px;
+    box-shadow: 0px 0px 30px rgb(128, 128, 128);
+    padding: 25px 25px 25px 25px;
+    border-radius: 15px;
+}
+
+button{
+    color: white;
+    background-color: rgba(1, 102, 94, 0.411);
+    border: 2px solid rgb(0, 255, 234);
+    border-radius: 10px;
+    transition: 0.2s;
+    font-size: 15px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.2s;
+}
+#butto{
+    color: white;
+    background-color: rgba(1, 102, 94, 0.411);
+    border: 2px solid rgb(0, 255, 234);
+    border-radius: 10px;
+    transition: 0.2s;
+    font-size: 15px;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+#butto:hover{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.2s;
+}
+#butt{
+    color: white;
+    background-color: rgba(1, 102, 94, 0.411);
+    border: 2px solid rgb(0, 255, 234);
+    border-radius: 10px;
+    transition: 0.2s;
+    font-size: 15px;
+    width: 450px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+#butt:hover{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.2s;
+}

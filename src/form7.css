@@ -1,0 +1,49 @@
+header{
+    position: absolute;
+    top: 0;
+}
+.float1{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 120px;
+    height: 100px;
+}
+.float2{
+    display: inline-block;
+    
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 1050px;
+    width: 120px;
+    height: 100px;
+    text-align: right;
+}
+
+.bouton{
+    font-size: 1px; 
+}
+
+
+button{
+    color: white;
+    background-color: rgba(1, 102, 94, 0.411);
+    border: 2px solid rgb(0, 255, 234);
+    border-radius: 10px;
+    transition: 0.2s;
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+button:hover{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.2s;
+}
