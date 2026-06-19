@@ -28,28 +28,53 @@ The goal of the application is to centralize data entry, automate reporting, and
 - District/commune-oriented reporting workflow
 - Interfaces for Kinshasa health zones and communes
 
-## Screenshots
+## Modèle de données
 
-### Information / orientation page
+### Modèle Conceptuel des Données (MCD)
+![MCD](screenshots/01_modele_conceptuel_donnees_MCD.png)
 
-![Information page](assets/screenshots/information_page.png)
+### Modèle Logique des Données (MLD)
+![MLD](screenshots/02_modele_logique_donnees_MLD.png)
 
-### Login page
+### Modèle Physique des Données (MPD)
+Voir [modele_physique_donnees_MPD.md](modele_physique_donnees_MPD.md) pour le détail des 8 tables
+(`compte`, `unite`, `t_structure`, `t_aire`, `t_zone`, `fiche`, `femme`, `cascontact`) avec types,
+clés primaires/étrangères et contraintes.
 
-![Login page](assets/screenshots/login_page.png)
+## Captures d'écran
 
-### Registration page
+### Page d'accueil
+![Accueil](screenshots/03_page_accueil.png)
 
-![Registration page](assets/screenshots/registration_page.png)
+### Renseignement des zones de santé
+![Renseignement](screenshots/04_page_renseignement_zones_sante.png)
 
-### Reporting menu
+### Connexion
+![Connexion](screenshots/05_page_connexion.png)
 
-![Reporting menu](assets/screenshots/reporting_menu.png)
+### Inscription
+![Inscription](screenshots/06_page_inscription.png)
 
-### Statistical chart
+### Menu infirmier (saisie des données)
+![Menu infirmier](screenshots/07_menu_infirmier.png)
 
-![Statistics chart](assets/screenshots/statistics_chart.png)
+### Fiche patient
+![Fiche patient](screenshots/08_fiche_patient.png)
 
+### Données de l'unité / structure
+![Structure](screenshots/09_page_structure_donnees_unite.png)
+
+### Export PDF — liste des malades
+![Export liste malades](screenshots/10_export_pdf_liste_malades.png)
+
+### Rapportage structure (côté rapporteur)
+![Rapportage structure](screenshots/11_rapportage_structure.png)
+
+### Export PDF — état de la structure
+![Export état structure](screenshots/12_export_pdf_etat_structure.png)
+
+### Graphe de rapportage
+![Graphe rapportage](screenshots/13_graphe_rapportage.png)
 ## Technologies Used
 
 | Category | Tools |
@@ -68,8 +93,20 @@ The goal of the application is to centralize data entry, automate reporting, and
 vih-kinshasa-system/
 ├── README.md
 ├── .gitignore
-├── assets/
-│   └── screenshots/
+├── screenshots/
+    ├── 01_modele_conceptuel_donnees_MCD.png
+    ├── 02_modele_logique_donnees_MLD.png
+    ├── 03_page_accueil.png
+    ├── 04_page_renseignement_zones_sante.png
+    ├── 05_page_connexion.png
+    ├── 06_page_inscription.png
+    ├── 07_menu_infirmier.png
+    ├── 08_fiche_patient.png
+    ├── 09_page_structure_donnees_unite.png
+    ├── 10_export_pdf_liste_malades.png
+    ├── 11_rapportage_structure.png
+    ├── 12_export_pdf_etat_structure.png
+    ├── 13_graphe_rapportage.png
 ├── docs/
 │   └── database-notes.md
 ├── pdf_reports/
